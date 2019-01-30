@@ -3,7 +3,6 @@ html {
 }
 
 header {
-    padding: 20px;
     font-weight: bold;
     margin: 10px;
 }
@@ -11,6 +10,7 @@ header {
 header h1 {
     text-align: center;
     color: white;
+    font-size: 2em;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     cursor: pointer;
 }
 
-.contenedor-formulario {
+.formulario {
     background-color: white;
     padding: 3rem;
 }
