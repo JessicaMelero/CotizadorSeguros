@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: #8360c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.boton {
+    background-color: #59A9C2 !important;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.contenedor-formulario {
+    background-color: white;
+    padding: 3rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.campo label {
+    flex: 0 0 200px;
+}
+
+.campo input[type="radio"] {
+    margin: 1rem;
+}
