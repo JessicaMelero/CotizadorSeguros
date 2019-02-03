@@ -2,7 +2,7 @@
   "name": "cotizador",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jessicamelero.github.io/CotizadorSeguros/",
+  "homepage": "https://jessicamelero.github.io/cotizador/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
